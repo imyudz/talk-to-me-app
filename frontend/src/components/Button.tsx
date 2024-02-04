@@ -6,7 +6,7 @@ interface IButton{
 
 export default function Button({title, type}: IButton){
     return(
-        <button className='bg-primary-light hover:bg-opacity-25 font-medium w-full text-primary-dark rounded-md py-2' type={type}>
+        <button className='bg-primary-light hover:bg-opacity-80 transition duration-300 font-medium w-full text-primary-dark rounded-md py-2' type={type}>
             <span>{title}</span>
         </button>
     );
